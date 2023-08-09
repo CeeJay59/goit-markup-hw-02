@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+    outline: auto;
+}
+    div{
+        width: 100px;
+        height: 100px;
+        color: blue;
+    }
+    div {
+  cursor: pointer;
+}
+
+div:hover {
+  background-color: red;
+}
+
+.active {
+  background-color: blue;
+}
+
+div[data-initial-color="red"] {
+  background-color: red;
+}
+
+div[data-initial-color="blue"] {
+  background-color: blue;
+}
+
+div:active {
+  background-color: inherit;
+}
+</style>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
