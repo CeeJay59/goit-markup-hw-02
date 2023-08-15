@@ -36,19 +36,19 @@ body {
 	list-style-type: none;
 }
 
-.menu-item a {
+.menu-text {
 	text-decoration: none;
 	color: #2E2F42;
 	font-weight: 500;
 }
 
-.menu-item a:hover {
-	color: #151b95;
+.menu-text:hover {
+	color: #404BBF;
 	text-decoration: none;
 	position: relative;
 }
 
-.menu-item a:hover::after {
+.menu-text:hover::after {
 	content: '';
 	/* Empty content to create the underline */
 	display: block;
@@ -58,7 +58,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 4px;
-	background-color: #272b76;
+	background-color: #404BBF;
 	border-radius: 2px;
 }
 
@@ -110,7 +110,7 @@ main {
 	background-color: #2E2F42;
 }
 
-.section-1 h1 {
+.section-1-header {
 	color: #FFFFFF;
 	font-weight: 700;
 	font-size: 56px;
@@ -124,7 +124,7 @@ main {
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: 500;
-	letter-spacing: 4%;
+	letter-spacing: 1.5px;
 	background-color: #4D5AE5;
 	width: 169px;
 	height: 56px;
@@ -149,7 +149,7 @@ main {
 	list-style-type: none;
 }
 
-.feature-items h3 {
+.feature-items-title {
 	color: #2E2F42;
 	font-weight: 500;
 	font-size: 20px;
@@ -161,7 +161,7 @@ main {
 	height: max-content;
 }
 
-.section-3 h2 {
+.section-3-header {
 	color: #2E2F42;
 	font-weight: 700;
 	font-size: 36px;
@@ -189,7 +189,7 @@ main {
 	height: max-content;
 }
 
-.section-4 h2 {
+.section-4-header {
 	color: #2E2F42;
 	font-weight: 700;
 	font-size: 36px;
@@ -214,18 +214,18 @@ main {
 	text-align: center;
 }
 
-.image-items-s4 h3 {
+.team-members-name {
 	color: #2E2F42;
 	font-weight: 500;
 	font-size: 20px;
 }
 
-.image-items-s4 h3,
+.team-members-name,
 .image-items-s4 p {
 	/*padding: 4px; */
 	margin: 0px;
 }
-.image-items-s4 div {
+.section-4-text-container {
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -243,7 +243,7 @@ footer {
 }
 
 footer .studio,
-footer p {
+.footer-content {
 	color: #F4F4FD;
 }
 
@@ -261,7 +261,7 @@ footer p {
 	padding: 12px, 24px, 12px, 24px;
 	color: #4D5AE5;
 	font-weight: 500;
-	letter-spacing: 4%;
+	letter-spacing: 1.5px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -307,14 +307,14 @@ footer p {
 	height: 420px;
 }
 
-.filters-image-container h3 {
+.service-name {
 	color: #2E2F42;
 	font-weight: 500;
 	font-size: 20px;
 }
 
-.filters-image-container h3,
-.filters-image-container p {
+.service-name,
+.service-type {
 	position: relative;
 	left: 1rem;
 	padding: 4px;
@@ -322,7 +322,7 @@ footer p {
 	width: max-content;
 }
 
-.filters-image-container div {
+.filters-text-container {
 	position: relative;
 	display: flex;
 	flex-direction: column;
